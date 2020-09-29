@@ -7,7 +7,7 @@ int main()
 	setbuf(stdout,NULL);
     int opcion =0;
     char seguir = 's';
-
+    //char
     float num1=0;
     float num2=0;
     float rsuma;
