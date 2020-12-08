@@ -9,7 +9,7 @@
 int main()
 {
 	setbuf(stdout,NULL);
-    int opcion=0,flag=0;
+    int opcion=0,flag=0,id=1;
     char seguir ='s';
     eEmployee emp[MAX];
 
@@ -26,7 +26,7 @@ int main()
         {
         case 1:
 
-            Alta(emp,MAX);
+            Alta(emp,MAX,&id);
             system("cls");
             break;
         case 2:

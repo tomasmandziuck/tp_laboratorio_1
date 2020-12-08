@@ -19,7 +19,7 @@ typedef struct
  * \return 0
  *
  */
-void Alta(eEmployee emp[],int cant);
+void Alta(eEmployee emp[], int cant,int* id);
 /** \brief Recorre todos los indices del array empleado y ejecuta la funcion mostrarUno
  *
  * \param array eEmployee
